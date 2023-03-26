@@ -1,5 +1,59 @@
-@charset "utf-8"
+@charset
 
-head > picture {
-    background-position: center center;
+:root {
+    --cor0: #ff2c26;
+    --cor1: #f4403b;
+    --cor2: #602a29;
+    --cor4: #160c0b;
+
+}
+
+body {
+    height: 100vh;
+    background-color: black;   
+}
+
+header  { 
+    min-width: 150px;
+    text-align: center;
+    background-color: black;
+    color: #ff2c26;
+    padding: 5px;
+   
+}
+
+nav {
+    background-color:#602a29;
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    padding: 10px;
+}
+
+nav > a:hover {
+    background-color: #ff2c26;
+    color: var(--cor0);
+}
+
+main {
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 15px rgba(136, 109, 93, 0.616);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+aside > a {
+    text-decoration: none;
+    font-weight: bold;
+ 
 }
