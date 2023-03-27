@@ -8,6 +8,8 @@
 
 }
 
+
+
 body {
     height: 100vh;
     background-color: black;   
@@ -27,6 +29,7 @@ nav {
     padding: 10px;
     margin: auto;
     font-weight: bold;
+    font-size: 0.8em;
 }
 
 nav > a {
@@ -52,8 +55,32 @@ main {
     margin: auto;
 }
 
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+
+}
 aside > a {
     text-decoration: none;
     font-weight: bold;
- 
+}
+
+strong {
+    color: #f4403b; 
+}
+
+main a {
+    text-decoration: none;
+}
+
+main h1 { 
+    text-align: center;
+    color: #602a29;
+}
+
+main h2 {
+    color: #602a29;
 }
