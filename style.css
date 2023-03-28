@@ -8,7 +8,9 @@
 
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 body {
     height: 100vh;
@@ -47,22 +49,64 @@ nav > a:hover {
 }
 
 main {
+    min-width: 300px;
+    max-width: 800px;
     background-color: white;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 5px 5px 15px rgba(136, 109, 93, 0.616);
-    width: 600px;
-    padding: 10px;
+    padding: 20px;
     margin: auto;
 }
 
 main p {
+    font-family: 'Work Sans', sans-serif;
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
     line-height: 2em;
     font-size: 1em;
-
 }
+
+main a {
+    text-decoration: none;
+}
+
+main h1 { 
+    font-family: 'Alkatra', cursive;
+    font-size: 2.5em;
+    text-align: center;
+    color: #602a29;
+}
+
+main  h2 {
+    font-family: 'Alkatra', cursive;
+    color: #602a29;
+    text-indent: 8px;
+}
+
+main  h3 {
+    color: #602a29;
+    font-family: 'Alkatra', cursive;
+    
+}
+
+aside {
+    background-color: #f4403b;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+
+aside > h4 {
+    background-color: #602a29;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    font-family: 'Alkatra', cursive;
+    font-weight: normal;
+}
+
 aside > a {
     text-decoration: none;
     font-weight: bold;
@@ -72,15 +116,3 @@ strong {
     color: #f4403b; 
 }
 
-main a {
-    text-decoration: none;
-}
-
-main h1 { 
-    text-align: center;
-    color: #602a29;
-}
-
-main h2 {
-    color: #602a29;
-}
