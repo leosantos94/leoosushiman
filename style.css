@@ -167,6 +167,25 @@ div.hotroll01 {
     height: 300px;
 }
 
+.card#sushi1 {
+    background-image: url(imagens/sushiatum500.jpg);
+    height: 200px;
+    background-size: cover;
+    
+}
+
+.card#sushi2 {
+    background-image: url(imagens/sushidhaigo500.jpg);
+    background-size: cover;
+    background-position: center right;
+}
+
+.card#sushi3 {
+    background-image: url(imagens/sushisalmao500.jpg);
+    background-size: cover;
+    background-position: center left;
+}
+
 .container {
     display:flex
 }
@@ -176,7 +195,7 @@ div.hotroll01 {
     overflow: hidden;
 }
 
-.card img {
+.card#sushi1#sushi2#sushi3 {
     object-fit: cover;
     filter: grayscale(1);
 }
@@ -185,6 +204,6 @@ div.hotroll01 {
     flex: 3;
 }
 
-.card:hover img {
+.card:hover#sushi1#sushi2#sushi3 {
     filter: none;
 }
