@@ -35,7 +35,7 @@ nav {
     padding: 10px;
     margin: auto;
     font-weight: bold;
-    font-size: 0.8em;
+    font-size: 0.6em;
 }
 
 nav > a {
@@ -44,7 +44,7 @@ nav > a {
     margin: 5px;
     border-radius: 5px;
     transition-duration: 0.5s;
-    padding: 10px;
+    padding: 8px;
 }
 
 nav > a:hover {
@@ -177,7 +177,6 @@ div.hotroll01 {
 }
 
 .card img {
-    
     object-fit: cover;
     filter: grayscale(1);
 }
