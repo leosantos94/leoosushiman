@@ -22,7 +22,7 @@ body {
 }
 
 header  { 
-    min-width: 150px;
+   
     text-align: center;
     background-color: black;
     color: #ff2c26;
@@ -38,6 +38,7 @@ nav {
     font-size: 0.6em;
 }
 
+    
 nav > a {
     color: white;
     text-decoration: none;
@@ -186,8 +187,11 @@ div.hotroll01 {
     background-position: center left;
 }
 
-.container {
-    display:flex
+.container2 {
+    display:flex;
+    border: solid black;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.767);
+
 }
 
 .card {
@@ -195,7 +199,7 @@ div.hotroll01 {
     overflow: hidden;
 }
 
-.card#sushi1#sushi2#sushi3 {
+.card {
     object-fit: cover;
     filter: grayscale(1);
 }
@@ -204,6 +208,6 @@ div.hotroll01 {
     flex: 3;
 }
 
-.card:hover#sushi1#sushi2#sushi3 {
+.card:hover {
     filter: none;
 }
